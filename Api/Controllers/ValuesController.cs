@@ -15,6 +15,10 @@ namespace Api.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        
+        [HttpGet]
+        public IEnumerable<string> GetTest()
+        {
+            return new string[] { "value1", "value2" };
+        }
     }
 }
